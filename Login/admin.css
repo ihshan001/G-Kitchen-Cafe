@@ -1,0 +1,296 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font globally */
+}
+:root {
+    --mainColor: #24241f;
+    --whiteColor: #ffffff;
+    --titleColor: #555555;
+    --labelColor: #333333;
+}
+/* Body Styles */
+body {
+    background-image: url('resBg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+/* Wrapper Styles */
+.wrapper {
+
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color:  #da4453;
+
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust opacity to your preference */
+   
+    /* Apply blur effect to form background */
+    backdrop-filter: blur(0px); /* Adjust blur intensity */
+}
+
+/* Admin Panel Styles */
+.admin-panel {
+    margin-top: 20px;
+}
+
+.admin-form input,
+.admin-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.admin-form button.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #444043; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.admin-form button.btn:hover {
+    background-color: #da4453; /* Hover background color */
+}
+
+/* Toggle Button Styles */
+.btn-toggle {
+    background-color: #444043; /* Button background color */
+    color: #fff; /* Text color */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.btn-toggle:hover {
+    background-color: #da4453; /* Hover background color */
+}
+
+/* Logout Button Styles */
+.btn-logout {
+    background-color: #444043; /* Button background color */
+    color: #fff; /* Text color */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Spacing above the logout button */
+}
+
+.btn-logout:hover {
+    background-color: #da4453; /* Hover background color */
+}
+
+/* Reviews Section Styles */
+.reviews {
+    margin-top: 20px;
+}
+
+.review {
+    background-color: #fff; /* Light background for contrast */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333; /* Dark text for readability */
+}
+
+.review-details p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.review-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-actions .btn {
+    background-color: #444043;  /* Consistent with other buttons */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.review-actions .btn:hover {
+    background-color: #da4453; /* Hover effect consistent with other buttons */
+}
+
+.reply-btn {
+    /* Additional styles specific to reply button if needed */
+}
+
+.delete-btn {
+    /* Additional styles specific to delete button if needed */
+}
+
+.reply-form {
+    margin-top: 10px;
+}
+
+.reply-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.reply-form button.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #444043; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reply-form button.btn:hover {
+    background-color: #da4453; /* Hover background color */
+}
+
+/* Members Table Styles */
+#membersTable {
+    margin-top: 20px;
+}
+
+#membersTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#membersTable th,
+#membersTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#membersTable th {
+    background-color: #444043;
+    color: white;
+}
+
+#membersTable td {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Delete Button Styles */
+.btnDel {
+    background-color: #444043; /* Button background color */
+    color: #fff; /* Text color */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    display: block;
+}
+
+.btnDel:hover {
+    background-color: #da4453; /* Hover background color */
+}
+
+/*reservationsTable*/
+#reservationsTable {
+    margin-top: 20px;
+}
+
+#reservationsTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#reservationsTable th,
+#reservationsTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#reservationsTable th {
+    background-color: #444043;
+    color: white;
+}
+
+#reservationsTable td {
+    background-color: #f9f9f9;
+    color: #333;
+}
+/* Toggle Button for Reviews */
+.btn-toggle-reviews {
+    background-color: #444043;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.btn-toggle-reviews:hover {
+    background-color: #da4453;
+}
+
+/* Comments Table Styles */
+#CommentTable {
+    margin-top: 20px;
+}
+
+#CommentTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#CommentTable th,
+#CommentTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#CommentTable th {
+    background-color: #444043;
+    color: white;
+}
+
+#CommentTable td {
+    background-color: #f9f9f9;
+    color: #333;
+}
