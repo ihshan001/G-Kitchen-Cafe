@@ -15,10 +15,9 @@ G-Kitchen-Cafe is a collaborative group project aimed at building a modern, user
 ## Features
 
 - **Digital Menu**: Interactive and visually appealing menu for customers.
-- **Online Ordering**: Seamless process for customers to place and customize orders.
-- **Order Management**: Real-time order tracking and management interface for kitchen staff.
+- **Order Management**: Order tracking and management interface for kitchen staff.
 - **User Authentication**: Secure login and registration for customers and staff.
-- **Admin Dashboard**: Easy management of menu items, order statuses, and user accounts.
+- **Admin Dashboard**: Easy management of order statuses, and user accounts.
 - **Responsive Design**: Smooth experience on desktop, tablet, and mobile devices.
 
 ## Technologies Used
