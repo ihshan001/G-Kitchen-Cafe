@@ -2,10 +2,10 @@
 
 > **Group Project**  
 > Developed by: [Team No 06]
-> Nisma
-> Ihshan
-> Hasini
-> Nethmi
+> Nisma |
+> Ihshan |
+> Hasini |
+> Nethmi |
 > Arawindu
 
 ## Overview
