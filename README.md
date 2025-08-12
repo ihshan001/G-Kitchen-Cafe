@@ -23,11 +23,9 @@ G-Kitchen-Cafe is a collaborative group project aimed at building a modern, user
 
 ## Technologies Used
 
-- **Frontend**: [React.js / Vue.js / Angular / etc.]  
-- **Backend**: [Node.js / Express / Django / etc.]  
-- **Database**: [MongoDB / MySQL / PostgreSQL / etc.]  
-- **Styling**: [Tailwind CSS / Bootstrap / Material-UI / etc.]  
-- **Authentication**: [JWT / OAuth / etc.]
+- **Frontend**: [HTML, CSS, Bootstrap.]  
+- **Backend**: [PHP, JS, Vanilla]  
+- **Database**: [MYSQL] 
 
 _Replace the above stack with your actual technology choices._
 
