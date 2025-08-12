@@ -10,7 +10,7 @@
 
 ## Overview
 
-G-Kitchen-Cafe is a collaborative group project aimed at building a modern, user-friendly web application for a kitchen cafe business. The platform streamlines menu management, order processing, and customer engagement, providing both customers and staff with an efficient digital experience.
+G-Kitchen-Cafe is a collaborative group project aimed at building a modern, user-friendly web application for acafe business. The platform streamlines menu management, order processing, and customer engagement, providing both customers and staff with an efficient digital experience.
 
 ## Features
 
